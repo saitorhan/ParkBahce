@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.25, 18" name="ParkBahce">
+  <DataContextMoniker Name="/ParkBahceDataContext" />
+  <nestedChildShapes>
+    <classShape Id="28617fd3-50fb-469c-846f-cc4cf2ec6e74" absoluteBounds="12, 6.625, 2, 1.5785953776041657">
+      <DataClassMoniker Name="/ParkBahceDataContext/Bakim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41851f2d-a42d-4e9f-95fd-f530909f9227" absoluteBounds="12.015, 7.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aab539e6-dd45-4344-aa34-5240103498d4" absoluteBounds="3.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ParkBahceDataContext/DepoBilgi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f7de758-117e-47ac-a870-b6bc892fb78b" absoluteBounds="3.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d74a869-e475-4468-a64a-edfef58b9ccf" absoluteBounds="6.25, 4.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ParkBahceDataContext/DepoCiki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed02a133-568d-4d4e-8a45-38d0f73c1f2a" absoluteBounds="6.265, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="313dd0f5-f7e8-4fcb-abb3-38921dd93bd5" absoluteBounds="8.75, 10, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/ParkBahceDataContext/Ekip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3f9dc63-cc86-4b51-8611-d9ee8e4b5731" absoluteBounds="8.765, 10.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91bd5fb0-983d-4f39-96c0-588ec26863cf" absoluteBounds="11.5, 10, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ParkBahceDataContext/ERapor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab02a858-7ae9-4cc8-80bb-8c2d36b3dfb7" absoluteBounds="11.515, 10.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7faa40b9-2b16-4891-b618-962b99458d68" absoluteBounds="0.75, 3.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ParkBahceDataContext/Gorev" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1333ce32-df8b-4726-bda7-e57368f9947b" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a4fbbdc-adf7-450a-bc5f-df239b13a5fa" absoluteBounds="11.75, 1.75, 2, 1.5785953776041668">
+      <DataClassMoniker Name="/ParkBahceDataContext/Hata" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5214273f-82d4-4a9b-927d-5022f42d58a3" absoluteBounds="11.765, 2.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="145bc229-9e6c-4e1d-a912-0b0d9e4d0289" absoluteBounds="8.75, 12.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ParkBahceDataContext/Hatirlatma" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6d2629f-2dbb-49f7-895f-605d37c26b1a" absoluteBounds="8.765, 13.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e46ab6e0-cb1f-4c2e-b0fa-cea60bbd5f08" absoluteBounds="6.25, 13, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ParkBahceDataContext/Izin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bda5520-186a-48de-ae15-0a758f9cebee" absoluteBounds="6.265, 13.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f647c50-9957-4167-992c-4b51a7710cd0" absoluteBounds="0.75, 1.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ParkBahceDataContext/MalzameTip" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fa8e783-1de7-451e-a008-91619a9c4d5d" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e292a51-2418-4a68-b297-de02f275281c" absoluteBounds="3.5, 13.25, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/ParkBahceDataContext/MotorluMalzame" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c604392-3841-480a-b0f0-9ef2b6ab6aa1" absoluteBounds="3.515, 13.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b99eace-c7f0-4940-928a-01555e2c8dee" absoluteBounds="9.25, 3.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ParkBahceDataContext/OPAriza" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03617f41-4ad9-47f0-a49e-eae77b7533f7" absoluteBounds="9.265, 4.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a670fa64-e459-4714-b7d6-ec835ed33e0c" absoluteBounds="6.5, 1.5, 2, 1.5785953776041668">
+      <DataClassMoniker Name="/ParkBahceDataContext/OParkMalzeme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71fbc549-2895-490b-8670-b63ce3dbc7ea" absoluteBounds="6.515, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d24e5bdb-107c-4b5f-a1b8-77a0355efb37" absoluteBounds="3.75, 16.375, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/ParkBahceDataContext/OyunPark" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7fb43f5-b9ba-4472-8767-1aa341a4a716" absoluteBounds="3.765, 16.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a5d2512b-cb9f-4291-aea6-f1e3cbb2c3d1" absoluteBounds="0.75, 9, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/ParkBahceDataContext/Park" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91985952-9526-4d2a-8022-898c1c3ccf39" absoluteBounds="0.765, 9.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" absoluteBounds="3.5, 5.5, 2, 3.8862125651041648">
+      <DataClassMoniker Name="/ParkBahceDataContext/Personel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="723a2205-290f-4a4d-bb65-2af2cf05f77a" absoluteBounds="3.515, 5.96, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cde039eb-37b1-49b2-9a34-5bb03fec160a" absoluteBounds="6.25, 7.5, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/ParkBahceDataContext/SatinAlma" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f781c1da-fbd6-4dd8-8e4f-d1d0ec150e2e" absoluteBounds="6.265, 7.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30ac9580-8024-46d5-b984-03966995ea8d" absoluteBounds="0.75, 6.875, 2, 1.1939925130208318">
+      <DataClassMoniker Name="/ParkBahceDataContext/Sehir" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d263acad-022a-4b07-a581-b1bd54d2b6e4" absoluteBounds="0.765, 7.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="038feeb4-52e1-4c6d-bc0e-0606c2e074e4" absoluteBounds="3.5, 10.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/ParkBahceDataContext/SulamaMalzeme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="096ee147-16e4-41cb-941b-00c8936461a7" absoluteBounds="3.515, 11.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b699612a-e645-4a47-a309-058f2deb1f0b" absoluteBounds="9.25, 6.5, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/ParkBahceDataContext/TasimaArac" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cafa51f-82a5-4b36-b756-cc998d04b9e3" absoluteBounds="9.265, 6.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7060fd87-5e9a-4c8c-94b1-a46a89b0aa67" absoluteBounds="11.75, 12.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/ParkBahceDataContext/Tatiller" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9785e17-d23c-4be7-94a9-91e83d8e0239" absoluteBounds="11.765, 13.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 1.09375); (6.34375 : 1.09375); (6.34375 : 4.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/DepoBilgi/DepoBilgi_DepoCiki" />
+      <nodes>
+        <classShapeMoniker Id="aab539e6-dd45-4344-aa34-5240103498d4" />
+        <classShapeMoniker Id="0d74a869-e475-4468-a64a-edfef58b9ccf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.75 : 10.6931469726562); (11.5 : 10.6931469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Ekip/Ekip_ERapor" />
+      <nodes>
+        <classShapeMoniker Id="313dd0f5-f7e8-4fcb-abb3-38921dd93bd5" />
+        <classShapeMoniker Id="91bd5fb0-983d-4f39-96c0-588ec26863cf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.88064697265625); (3.5 : 1.88064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/MalzameTip/MalzameTip_DepoBilgi" />
+      <nodes>
+        <classShapeMoniker Id="7f647c50-9957-4167-992c-4b51a7710cd0" />
+        <classShapeMoniker Id="aab539e6-dd45-4344-aa34-5240103498d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.71587584134615 : 3.0112939453125); (3.125 : 3.42041810396635); (3.125 : 14.2315991210937); (3.5 : 14.2315991210937)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/MalzameTip/MalzameTip_MotorluMalzame" />
+      <nodes>
+        <classShapeMoniker Id="7f647c50-9957-4167-992c-4b51a7710cd0" />
+        <classShapeMoniker Id="6e292a51-2418-4a68-b297-de02f275281c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 2.28929768880208); (10.25 : 2.28929768880208); (10.25 : 3.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/OParkMalzeme/OParkMalzeme_OPAriza" />
+      <nodes>
+        <classShapeMoniker Id="a670fa64-e459-4714-b7d6-ec835ed33e0c" />
+        <classShapeMoniker Id="8b99eace-c7f0-4940-928a-01555e2c8dee" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.5737914453125); (6.26041666666667 : 2.5737914453125 : JumpStart); (6.42708333333333 : 2.5737914453125 : JumpEnd); (6.5 : 2.5737914453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/MalzameTip/MalzameTip_OParkMalzeme" />
+      <nodes>
+        <classShapeMoniker Id="7f647c50-9957-4167-992c-4b51a7710cd0" />
+        <classShapeMoniker Id="a670fa64-e459-4714-b7d6-ec835ed33e0c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.65625 : 16.375); (5.65625 : 2.85744591145833); (6.26041666666667 : 2.85744591145833 : JumpStart); (6.42708333333333 : 2.85744591145833 : JumpEnd); (6.5 : 2.85744591145833)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/OyunPark/OyunPark_OParkMalzeme" />
+      <nodes>
+        <classShapeMoniker Id="d24e5bdb-107c-4b5f-a1b8-77a0355efb37" />
+        <classShapeMoniker Id="a670fa64-e459-4714-b7d6-ec835ed33e0c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.88544840494792); (5.57291666666667 : 5.88544840494792 : JumpStart); (5.73958333333333 : 5.88544840494792 : JumpEnd); (6.25 : 5.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Personel/Personel_DepoCiki" />
+      <nodes>
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+        <classShapeMoniker Id="0d74a869-e475-4468-a64a-edfef58b9ccf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.38621256510416); (5.59732443490112 : 9.48353700000528 : JumpStart); (5.71517556509888 : 9.60138813020304 : JumpEnd); (5.875 : 9.76121256510416); (5.875 : 14.0777498372396); (6.25 : 14.0777498372396)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Personel/Personel_Izin" />
+      <nodes>
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+        <classShapeMoniker Id="e46ab6e0-cb1f-4c2e-b0fa-cea60bbd5f08" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.56814697265625); (3.04166666666667 : 4.56814697265625 : JumpStart); (3.30208333333333 : 4.56814697265625 : JumpEnd); (4.5 : 4.56814697265625); (4.5 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Gorev/Gorev_Personel" />
+      <nodes>
+        <classShapeMoniker Id="7faa40b9-2b16-4891-b618-962b99458d68" />
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.06307592307692); (3.06607443490112 : 8.7470014881758 : JumpStart); (3.27767556509888 : 8.53540035797804 : JumpEnd); (3.3125 : 8.50057592307692); (3.3125 : 9.57525002664263); (3.50153746153846 : 9.38621256510416)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ParkBahceDataContext/Park/Park_Personel" />
+      <nodes>
+        <classShapeMoniker Id="a5d2512b-cb9f-4291-aea6-f1e3cbb2c3d1" />
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.41185378255208); (5.57291666666667 : 8.41185378255208 : JumpStart); (5.73958333333333 : 8.41185378255208 : JumpEnd); (6.25 : 8.41185378255208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Personel/Personel_SatinAlma" />
+      <nodes>
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+        <classShapeMoniker Id="cde039eb-37b1-49b2-9a34-5bb03fec160a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.47199625651042); (3.04166666666667 : 7.47199625651041 : JumpStart); (3.30208333333333 : 7.47199625651042 : JumpEnd); (3.5 : 7.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Sehir/Sehir_Personel" />
+      <nodes>
+        <classShapeMoniker Id="30ac9580-8024-46d5-b984-03966995ea8d" />
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.0112939453125); (3.21875 : 3.4800439453125); (3.21875 : 11.6354484049479); (3.5 : 11.6354484049479)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/MalzameTip/MalzameTip_SulamaMalzeme" />
+      <nodes>
+        <classShapeMoniker Id="7f647c50-9957-4167-992c-4b51a7710cd0" />
+        <classShapeMoniker Id="038feeb4-52e1-4c6d-bc0e-0606c2e074e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 7.41429768880208); (12 : 7.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/TasimaArac/TasimaArac_Bakim" />
+      <nodes>
+        <classShapeMoniker Id="b699612a-e645-4a47-a309-058f2deb1f0b" />
+        <classShapeMoniker Id="28617fd3-50fb-469c-846f-cc4cf2ec6e74" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.97716878665865); (3.15912515865385 : 3.3862939453125); (5.57291666666667 : 3.3862939453125 : JumpStart); (5.73958333333333 : 3.3862939453125 : JumpEnd); (6.26041666666667 : 3.3862939453125 : JumpStart); (6.42708333333333 : 3.3862939453125 : JumpEnd); (8.875 : 3.3862939453125); (8.875 : 6.125); (9.25 : 6.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ParkBahceDataContext/MalzameTip/MalzameTip_TasimaArac" />
+      <nodes>
+        <classShapeMoniker Id="7f647c50-9957-4167-992c-4b51a7710cd0" />
+        <classShapeMoniker Id="b699612a-e645-4a47-a309-058f2deb1f0b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.0000025); (5.57291666666667 : 7.0000025 : JumpStart); (5.73958333333333 : 7.0000025 : JumpEnd); (9.25 : 7.0000025)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParkBahceDataContext/Personel/Personel_TasimaArac" />
+      <nodes>
+        <classShapeMoniker Id="560f9020-ed7e-4d2f-9c39-bd0de91c27e9" />
+        <classShapeMoniker Id="b699612a-e645-4a47-a309-058f2deb1f0b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

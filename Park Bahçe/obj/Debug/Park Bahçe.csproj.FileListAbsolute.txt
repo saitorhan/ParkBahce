@@ -1,0 +1,119 @@
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.exe.config
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.exe
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.pdb
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Ana.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Izin.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Personel.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_PersonelGuncelle.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Properties.Resources.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.csproj.GenerateResource.Cache
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.exe
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.pdb
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.csprojResolveAssemblyReference.cache
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TatillerKayit.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Park.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_GuncellecekParkSecme.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeTipi.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeTipiEkle.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MoturluMalzeme.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_SulamaMalzeme.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TasimaAraclari.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TasimaAraciEkle.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_SatinAlma.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeCikis.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_DepoBilgi.resources
+E:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Hatirlatmalar.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.exe.config
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.exe
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.pdb
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Ana.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_DepoBilgi.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_GuncellecekParkSecme.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Hatirlatmalar.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Izin.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeCikis.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeTipi.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MalzemeTipiEkle.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_MoturluMalzeme.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Park.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Personel.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_PersonelGuncelle.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_SatinAlma.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_SulamaMalzeme.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TasimaAraciEkle.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TatillerKayit.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_TasimaAraclari.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Properties.Resources.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.csproj.GenerateResource.Cache
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.exe
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.pdb
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_Hatirlatmalar_MBox.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_EkipRapor.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_EkipRaporlar.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_OyunPark.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_OyunParkMalzeme.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.Form_OyunParkGuncelle.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\SendSms.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Charts.v12.1.Core.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Data.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.PivotGrid.v12.1.Core.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Printing.v12.1.Core.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.RichEdit.v12.1.Core.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Utils.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraCharts.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraEditors.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraPivotGrid.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraReports.v12.1.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Data.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.PivotGrid.v12.1.Core.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Printing.v12.1.Core.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.RichEdit.v12.1.Core.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.Utils.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraCharts.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraEditors.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraPivotGrid.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\DevExpress.XtraReports.v12.1.xml
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.Data.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.Data.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.Data.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.Data.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.Utils.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.Utils.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.Utils.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.Utils.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\de\DevExpress.XtraReports.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\es\DevExpress.XtraReports.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ja\DevExpress.XtraReports.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\bin\Debug\ru\DevExpress.XtraReports.v12.1.resources.dll
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.exe.licenses
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.XtraReport_personelListesi.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.XtraReport_oyunParkMalzeme.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.XtraReport_depoBilgi.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.XtraReport_depoCikis.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park_Bahçe.XtraReport_depoGiris.resources
+D:\Mühendislik\Tasarım ve Uygulama\Park Bahçe\Park Bahçe\obj\Debug\Park Bahçe.csprojResolveAssemblyReference.cache
+C:\Users\sorhan\Downloads\Park Bahçe\Park Bahçe\bin\Debug\Park Bahçe.exe.config

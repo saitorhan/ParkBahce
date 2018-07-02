@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ParkBahce" Class="ParkBahceDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SAFER\SAIT;Initial Catalog=ParkBahce;Integrated Security=True" SettingsObjectName="Park_Bahçe.Properties.Settings" SettingsPropertyName="ParkBahceConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Bakim" Member="Bakims">
+    <Type Name="Bakim">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AracID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Rapor" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="TasimaArac_Bakim" Member="TasimaArac" ThisKey="AracID" OtherKey="ID" Type="TasimaArac" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DepoBilgi" Member="DepoBilgis">
+    <Type Name="DepoBilgi">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MTipID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Miktar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DepoBilgi_DepoCiki" Member="DepoCikis" ThisKey="ID" OtherKey="DMID" Type="DepoCiki" />
+      <Association Name="MalzameTip_DepoBilgi" Member="MalzameTip" ThisKey="MTipID" OtherKey="ID" Type="MalzameTip" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DepoCikis" Member="DepoCikis">
+    <Type Name="DepoCiki">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DMID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Miktar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DepoBilgi_DepoCiki" Member="DepoBilgi" ThisKey="DMID" OtherKey="ID" Type="DepoBilgi" IsForeignKey="true" />
+      <Association Name="Personel_DepoCiki" Member="Personel" ThisKey="PID" OtherKey="ID" Type="Personel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ekip" Member="Ekips">
+    <Type Name="Ekip">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Aktif" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Ekip_ERapor" Member="ERapors" ThisKey="ID" OtherKey="E_ID" Type="ERapor" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ERapor" Member="ERapors">
+    <Type Name="ERapor">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="E_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Rapor" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Ekip_ERapor" Member="Ekip" ThisKey="E_ID" OtherKey="ID" Type="Ekip" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gorev" Member="Gorevs">
+    <Type Name="Gorev">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Aktif" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Gorev_Personel" Member="Personels" ThisKey="ID" OtherKey="Gorev" Type="Personel" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hata" Member="Hatas">
+    <Type Name="Hata">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Metod" Type="System.String" DbType="NChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="TamKonum" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Mesaj" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Hatirlatma" Member="Hatirlatmas">
+    <Type Name="Hatirlatma">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Metin" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Yapildi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Izin" Member="Izins">
+    <Type Name="Izin">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="P_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IzinUzunlık" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ATarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="DTarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Ucretlilik" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="INeden" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="Personel_Izin" Member="Personel" ThisKey="P_ID" OtherKey="ID" Type="Personel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MalzameTip" Member="MalzameTips">
+    <Type Name="MalzameTip">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Aktif" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MalzameTip_DepoBilgi" Member="DepoBilgis" ThisKey="ID" OtherKey="MTipID" Type="DepoBilgi" />
+      <Association Name="MalzameTip_MotorluMalzame" Member="MotorluMalzames" ThisKey="ID" OtherKey="MTipID" Type="MotorluMalzame" />
+      <Association Name="MalzameTip_OParkMalzeme" Member="OParkMalzemes" ThisKey="ID" OtherKey="MID" Type="OParkMalzeme" />
+      <Association Name="MalzameTip_SulamaMalzeme" Member="SulamaMalzemes" ThisKey="ID" OtherKey="MTipID" Type="SulamaMalzeme" />
+      <Association Name="MalzameTip_TasimaArac" Member="TasimaAracs" ThisKey="ID" OtherKey="MTipID" Type="TasimaArac" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MotorluMalzame" Member="MotorluMalzames">
+    <Type Name="MotorluMalzame">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MTipID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Verim" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="STarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="SilmeTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Aktif" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="MalzameTip_MotorluMalzame" Member="MalzameTip" ThisKey="MTipID" OtherKey="ID" Type="MalzameTip" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OPAriza" Member="OPArizas">
+    <Type Name="OPAriza">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OPMID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rapor" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="OParkMalzeme_OPAriza" Member="OParkMalzeme" ThisKey="OPMID" OtherKey="ID" Type="OParkMalzeme" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OParkMalzeme" Member="OParkMalzemes">
+    <Type Name="OParkMalzeme">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OParkID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Adet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="OParkMalzeme_OPAriza" Member="OPArizas" ThisKey="ID" OtherKey="OPMID" Type="OPAriza" />
+      <Association Name="MalzameTip_OParkMalzeme" Member="MalzameTip" ThisKey="MID" OtherKey="ID" Type="MalzameTip" IsForeignKey="true" />
+      <Association Name="OyunPark_OParkMalzeme" Member="OyunPark" ThisKey="OParkID" OtherKey="ID" Type="OyunPark" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OyunPark" Member="OyunParks">
+    <Type Name="OyunPark">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Alan" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="OyunPark_OParkMalzeme" Member="OParkMalzemes" ThisKey="ID" OtherKey="OParkID" Type="OParkMalzeme" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Park" Member="Parks">
+    <Type Name="Park">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Cim" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IgneAgac" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GenisAgac" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="YuruyusPark" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="WC" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Mescid" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="PiknikAlan" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BisikletYol" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CesmeAdet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AcilisTarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Park_Personel" Member="Personels" ThisKey="ID" OtherKey="G_Yer" Type="Personel" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Personel" Member="Personels">
+    <Type Name="Personel">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Kimlik" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Baba" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Anne" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="D_Yer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="D_Tarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Kan" Type="System.String" DbType="Char(9)" CanBeNull="true" />
+      <Column Name="Telefon" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Ust" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Gorev" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="G_Yer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Giris" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Ayrilma" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Aktif" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Personel_DepoCiki" Member="DepoCikis" ThisKey="ID" OtherKey="PID" Type="DepoCiki" />
+      <Association Name="Personel_Izin" Member="Izins" ThisKey="ID" OtherKey="P_ID" Type="Izin" />
+      <Association Name="Personel_SatinAlma" Member="SatinAlmas" ThisKey="ID" OtherKey="PID" Type="SatinAlma" />
+      <Association Name="Personel_TasimaArac" Member="TasimaAracs" ThisKey="ID" OtherKey="Kimde" Type="TasimaArac" />
+      <Association Name="Gorev_Personel" Member="Gorev1" ThisKey="Gorev" OtherKey="ID" Type="Gorev" IsForeignKey="true" />
+      <Association Name="Park_Personel" Member="Park" ThisKey="G_Yer" OtherKey="ID" Type="Park" IsForeignKey="true" />
+      <Association Name="Sehir_Personel" Member="Sehir" ThisKey="D_Yer" OtherKey="ID" Type="Sehir" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SatinAlma" Member="SatinAlmas">
+    <Type Name="SatinAlma">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DMID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Miktar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ucret" Type="System.Decimal" DbType="Decimal(10,3) NOT NULL" CanBeNull="false" />
+      <Column Name="PID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Personel_SatinAlma" Member="Personel" ThisKey="PID" OtherKey="ID" Type="Personel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sehir" Member="Sehirs">
+    <Type Name="Sehir">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Association Name="Sehir_Personel" Member="Personels" ThisKey="ID" OtherKey="D_Yer" Type="Personel" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SulamaMalzeme" Member="SulamaMalzemes">
+    <Type Name="SulamaMalzeme">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MTipID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Uzunluk" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Adet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Cap" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="MalzameTip_SulamaMalzeme" Member="MalzameTip" ThisKey="MTipID" OtherKey="ID" Type="MalzameTip" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TasimaArac" Member="TasimaAracs">
+    <Type Name="TasimaArac">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MTipID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Plaka" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="STarih" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Kimde" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SilmeTarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TasimaArac_Bakim" Member="Bakims" ThisKey="ID" OtherKey="AracID" Type="Bakim" />
+      <Association Name="MalzameTip_TasimaArac" Member="MalzameTip" ThisKey="MTipID" OtherKey="ID" Type="MalzameTip" IsForeignKey="true" />
+      <Association Name="Personel_TasimaArac" Member="Personel" ThisKey="Kimde" OtherKey="ID" Type="Personel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tatiller" Member="Tatillers">
+    <Type Name="Tatiller">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gun" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ay" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yil" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

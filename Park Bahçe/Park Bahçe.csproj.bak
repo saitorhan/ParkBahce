@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4DB0FE3D-A3BE-4538-A552-BE20B6F6DDEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Park_Bahçe</RootNamespace>
+    <AssemblyName>Park Bahçe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v12.1, Version=12.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SendSms">
+      <HintPath>..\..\..\..\SAFER YAZILIM\Added Toolbox On Visual Studio\SendSms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_Ana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ana.Designer.cs">
+      <DependentUpon>Form_Ana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DepoBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DepoBilgi.Designer.cs">
+      <DependentUpon>Form_DepoBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EkipRapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EkipRapor.Designer.cs">
+      <DependentUpon>Form_EkipRapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_EkipRaporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_EkipRaporlar.Designer.cs">
+      <DependentUpon>Form_EkipRaporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GuncellecekParkSecme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GuncellecekParkSecme.Designer.cs">
+      <DependentUpon>Form_GuncellecekParkSecme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Hatirlatmalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Hatirlatmalar.Designer.cs">
+      <DependentUpon>Form_Hatirlatmalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Hatirlatmalar_MBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Hatirlatmalar_MBox.Designer.cs">
+      <DependentUpon>Form_Hatirlatmalar_MBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Izin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Izin.Designer.cs">
+      <DependentUpon>Form_Izin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MalzemeCikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MalzemeCikis.Designer.cs">
+      <DependentUpon>Form_MalzemeCikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MalzemeTipi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MalzemeTipi.designer.cs">
+      <DependentUpon>Form_MalzemeTipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MalzemeTipiEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MalzemeTipiEkle.designer.cs">
+      <DependentUpon>Form_MalzemeTipiEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_MoturluMalzeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MoturluMalzeme.designer.cs">
+      <DependentUpon>Form_MoturluMalzeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OyunPark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OyunPark.Designer.cs">
+      <DependentUpon>Form_OyunPark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OyunParkGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OyunParkGuncelle.Designer.cs">
+      <DependentUpon>Form_OyunParkGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OyunParkMalzeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OyunParkMalzeme.Designer.cs">
+      <DependentUpon>Form_OyunParkMalzeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Park.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Park.Designer.cs">
+      <DependentUpon>Form_Park.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Personel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Personel.Designer.cs">
+      <DependentUpon>Form_Personel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PersonelGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PersonelGuncelle.Designer.cs">
+      <DependentUpon>Form_PersonelGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SatinAlma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SatinAlma.Designer.cs">
+      <DependentUpon>Form_SatinAlma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_SulamaMalzeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_SulamaMalzeme.designer.cs">
+      <DependentUpon>Form_SulamaMalzeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TasimaAraciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TasimaAraciEkle.Designer.cs">
+      <DependentUpon>Form_TasimaAraciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TatillerKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TatillerKayit.Designer.cs">
+      <DependentUpon>Form_TatillerKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TaşımaAraçları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TaşımaAraçları.designer.cs">
+      <DependentUpon>Form_TaşımaAraçları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller.cs" />
+    <Compile Include="ParkBahce.cs">
+      <DependentUpon>ParkBahce.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ParkBahce.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ParkBahce.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ParkBahceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ParkBahceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XtraReport_depoBilgi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport_depoBilgi.Designer.cs">
+      <DependentUpon>XtraReport_depoBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport_depoCikis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport_depoCikis.Designer.cs">
+      <DependentUpon>XtraReport_depoCikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport_depoGiris.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport_depoGiris.Designer.cs">
+      <DependentUpon>XtraReport_depoGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport_OyunParkMalzeme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport_OyunParkMalzeme.Designer.cs">
+      <DependentUpon>XtraReport_OyunParkMalzeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReport_personelListesi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XtraReport_personelListesi.Designer.cs">
+      <DependentUpon>XtraReport_personelListesi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_Ana.resx">
+      <DependentUpon>Form_Ana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport_depoBilgi.resx">
+      <DependentUpon>XtraReport_depoBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport_depoCikis.resx">
+      <DependentUpon>XtraReport_depoCikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport_depoGiris.resx">
+      <DependentUpon>XtraReport_depoGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport_OyunParkMalzeme.resx">
+      <DependentUpon>XtraReport_OyunParkMalzeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReport_personelListesi.resx">
+      <DependentUpon>XtraReport_personelListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ParkBahce.dbml.layout">
+      <DependentUpon>ParkBahce.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Form_DepoBilgi.resx">
+      <DependentUpon>Form_DepoBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_EkipRapor.resx">
+      <DependentUpon>Form_EkipRapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_EkipRaporlar.resx">
+      <DependentUpon>Form_EkipRaporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GuncellecekParkSecme.resx">
+      <DependentUpon>Form_GuncellecekParkSecme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Hatirlatmalar.resx">
+      <DependentUpon>Form_Hatirlatmalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Hatirlatmalar_MBox.resx">
+      <DependentUpon>Form_Hatirlatmalar_MBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Izin.resx">
+      <DependentUpon>Form_Izin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MalzemeCikis.resx">
+      <DependentUpon>Form_MalzemeCikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MalzemeTipi.resx">
+      <DependentUpon>Form_MalzemeTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MalzemeTipiEkle.resx">
+      <DependentUpon>Form_MalzemeTipiEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_MoturluMalzeme.resx">
+      <DependentUpon>Form_MoturluMalzeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OyunPark.resx">
+      <DependentUpon>Form_OyunPark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OyunParkGuncelle.resx">
+      <DependentUpon>Form_OyunParkGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OyunParkMalzeme.resx">
+      <DependentUpon>Form_OyunParkMalzeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Park.resx">
+      <DependentUpon>Form_Park.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Personel.resx">
+      <DependentUpon>Form_Personel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PersonelGuncelle.resx">
+      <DependentUpon>Form_PersonelGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SatinAlma.resx">
+      <DependentUpon>Form_SatinAlma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_SulamaMalzeme.resx">
+      <DependentUpon>Form_SulamaMalzeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TasimaAraciEkle.resx">
+      <DependentUpon>Form_TasimaAraciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TatillerKayit.resx">
+      <DependentUpon>Form_TatillerKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TaşımaAraçları.resx">
+      <DependentUpon>Form_TaşımaAraçları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ParkBahce.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ParkBahce.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ParkBahceDataSet.xsc">
+      <DependentUpon>ParkBahceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ParkBahceDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ParkBahceDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ParkBahceDataSet.xss">
+      <DependentUpon>ParkBahceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
